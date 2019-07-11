@@ -1,5 +1,5 @@
 workflow "main" {
-  on = "schedule(5 * * * *)"
+  on = "issue_comment"
   resolves = "echo"
 }
 
