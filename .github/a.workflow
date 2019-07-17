@@ -1,17 +1,11 @@
 workflow "complex wf" {
   on = "issues"
   resolves = [
-    "custom",
     "push image",
     "parallel 1",
     "parallel 2"
   ]
 }
-
-action "custom" {
-  uses = "actions/git-and-stuff@master"
-}
-
 action "not referenced" {
   uses = "docker://alpine"
   runs = "false"
