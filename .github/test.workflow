@@ -1,5 +1,5 @@
 workflow "main" {
-  on = "schedule(15 * * * *)"
+  on = "schedule(* * * * *)"
   resolves = "echo"
 }
 
