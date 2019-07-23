@@ -1,4 +1,4 @@
-workflow "main32_TEST" {
+workflow "main_Test" {
   on = "schedule(* * * * *)"
   resolves = "echo"
 }
