@@ -1,4 +1,4 @@
-workflow "main" {
+workflow "maicfghn" {
   on = "schedule(* * * * *)"
   resolves = "echo"
 }
