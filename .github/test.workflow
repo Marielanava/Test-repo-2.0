@@ -5,5 +5,5 @@ workflow "main32_TEST" {
 
 action "echo" {
   uses = "docker://alpine"
-  runs = ["echo", "Hello, it's me!"]
+  runs = ["echo", "Hello, it's me, updated. No more hello its me!"]
 }
