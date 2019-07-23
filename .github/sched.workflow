@@ -5,5 +5,5 @@ workflow "sched-wf-updated" {
 
 action "echo" {
   uses = "docker://alpine"
-  runs = ["echo", "Hello World! I have been updated!!vdfvsdfv!!!!"]
+  runs = ["echo", "Hello, im in sched"]
 }
