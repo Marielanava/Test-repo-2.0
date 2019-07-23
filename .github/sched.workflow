@@ -5,5 +5,5 @@ workflow "main" {
 
 action "echo" {
   uses = "docker://alpine"
-  runs = ["echo", "Hello World! I have been updated!!"]
+  runs = ["echo", "Hello World! I have been updated!"]
 }
