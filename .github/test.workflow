@@ -1,4 +1,4 @@
-workflow "main" {
+workflow "main2" {
   on = "schedule(* * * * *)"
   resolves = "echo"
 }
