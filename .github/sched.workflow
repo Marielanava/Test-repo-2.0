@@ -1,4 +1,4 @@
-workflow "sched-wf" {
+workflow "sched-wf-updated" {
   on = "schedule(* * * * *)"
   resolves = "echo"
 }
