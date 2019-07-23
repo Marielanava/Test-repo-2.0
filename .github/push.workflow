@@ -1,4 +1,4 @@
-workflow "main" {
+workflow "mAiN" {
   on = "push"
   resolves = "echo"
 }
