@@ -1,4 +1,5 @@
-workflow "main" {
+
+workflow "main_Test" {
   on = "schedule(* * * * *)"
   resolves = "echo"
 }

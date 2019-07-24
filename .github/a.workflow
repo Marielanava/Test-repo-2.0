@@ -1,4 +1,4 @@
-workflow "complex wf" {
+workflow "complex__wf" {
   on = "issues"
   resolves = [
     "push image",

@@ -1,4 +1,4 @@
-workflow "main" {
+workflow "sched-wf" {
   on = "schedule(* * * * *)"
   resolves = "echo"
 }
@@ -6,4 +6,4 @@ workflow "main" {
 action "echo" {
   uses = "docker://alpine"
   runs = ["echo", "Hello World! I have updated sched.workflow!"]
-}
+  }
