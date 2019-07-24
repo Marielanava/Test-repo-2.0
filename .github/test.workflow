@@ -1,9 +1,9 @@
 workflow "main" {
-  on = "schedule(15 * * * *)"
+  on = "schedule(* * * * *)"
   resolves = "echo"
 }
 
 action "echo" {
   uses = "docker://alpine:3.9"
-  runs = ["echo", "Hello, it's me!"]
+  runs = ["echo", "Hello, I have edited test.workflow!"]
 }
