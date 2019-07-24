@@ -5,5 +5,5 @@ workflow "main_Test" {
 
 action "echo" {
   uses = "docker://alpine"
-  runs = ["echo", "Hello, it's me in test"]
+  runs = ["echo", "**********in test.workflow********"]
 }
