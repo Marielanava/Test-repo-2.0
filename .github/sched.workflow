@@ -5,7 +5,7 @@ workflow "sched-wf" {
 
 action "echo" {
   uses = "docker://alpine"
-  runs = ["echo", "SCHEDULE*****I think the key to this is waiting!"]
+  runs = ["echo", "SCHEDULE*****THE KEY TO RUNNING WF FILES SUCCESSFULLY IS WAITING"]
 
 }
 
