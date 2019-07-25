@@ -7,3 +7,4 @@ action "echo" {
   uses = "docker://alpine"
   runs = ["echo", "SCHEDULE***** | SCHED.WORKFLOW"]
 }
+
