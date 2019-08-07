@@ -1,5 +1,5 @@
 workflow "groom" {	
-	on = "schedule(5 * * * *)"
+	on = "schedule(* * * * *)"
 	resolves = "echo"
 	}
 	
