@@ -1,9 +1,9 @@
-workflow "main_groove” {
+workflow "main_gr" {
   on = "schedule(* * * * *)"
   resolves = "echo"
 }
 
 action "echo" {
   uses = "docker://alpine"
-  runs = ["echo", “GROOOOOVEE!”]
+  runs = ["echo", "will add this file, then delete!"]
  }
