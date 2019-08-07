@@ -5,5 +5,5 @@ workflow "main_groove" {
 
 action "echo" {
   uses = "docker://alpine"
-  runs = ["echo", "Adding then deleting >>>>>>>> changing output for modification testin*****!"]
+  runs = ["echo", "Adding then deleting >>>>>>>> IF YOU SEE THIS, IT MEANS YOU FIXED THE PROBLEM!"]
  }
