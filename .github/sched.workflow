@@ -1,8 +1,9 @@
 workflow "sched" {	
-	on = "schedule(* * * * *)"
-	resolves = "echo"
-	}
+on = "schedule(* * * * *)"
+resolves = "echo"
+}
 	
-	action "echo" {
-	uses = "docker://alpine"
-	runs = ["echo", "THIS IS A SCHEDULE FILE"]
+action "echo" {
+uses = "docker://alpine"
+runs = ["echo", "THIS IS A SCHEDULE FILE"]
+	}
