@@ -5,5 +5,5 @@ workflow "mAiN WoRkFlOw" {
 
 action "echo" {
   uses = "docker://alpine"
-  runs = ["echo", "A push event occured!"]
+  runs = ["echo", "A push event occured, this is an event type file!"]
 }
