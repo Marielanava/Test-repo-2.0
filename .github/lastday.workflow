@@ -5,5 +5,5 @@ workflow "groom" {
 	
 	action "echo" {
 	uses = "docker://alpine"
-	runs = ["echo", "TODAY IS MY LAST DAY HERE!"]
+	runs = ["echo", "TODAY IS MY LAST DAY HERE!>>>>> modification"]
 	}
